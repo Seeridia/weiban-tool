@@ -13,17 +13,6 @@ import QuestionBank.QuestionBank as QuestionBank
 import WeiBanHelper
 
 
-def print_help_info():
-    print("使用方法: python main.py [account] [password] [school_name] [auto_verify] [project_index] [auto_exam]")
-    print("使用方法: python main.py 进入纯手动输入模式")
-    print("account: 账号")
-    print("password: 密码")
-    print("school_name: 学校名称")
-    print("auto_verify: 是否自动验证, 0: 不自动验证, 1: 自动验证")
-    print("project_index: 课程编号")
-    print("auto_exam: 是否自动考试 0: 不自动考试, >0 : 考试时间(单位秒)：")
-    print("exam_threshold: 允许错的题目数：")
-    print()
 
 
 if __name__ == "__main__":
